@@ -1,14 +1,17 @@
 {
   "name": "simple-light-react",
   "version": "0.1.0",
+  "homepage": "https://socketplay.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -b master -d dist"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.2",
     "aos": "^3.0.0-beta.6",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-flatpickr": "^3.10.13",
