@@ -57,7 +57,7 @@ function HeroHome() {
             </div> */}
             
                 <div className='relative' style={{paddingBottom: '56.25%', height: 0}}>
-                  <video autoPlay loop muted src={Vid}></video>
+                  <video autoPlay loop muted playsinline src={Vid}></video>
           </div>
           </div>
 
